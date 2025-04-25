@@ -1,20 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="i0UoApTVICzmSJBnCe-1">
-    <mxGraphModel dx="1175" dy="1841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2025" dy="1841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Vehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35.55555555555556;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="611" y="-420" width="230" height="279.99555555555554" as="geometry" />
+          <mxGeometry x="611" y="-420" width="250" height="279.99555555555554" as="geometry" />
         </mxCell>
         <mxCell id="3" value="    -V_ID: String&#xa;    -manufacture_name: String&#xa;    +sensorReading: Sensor[3]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
-          <mxGeometry y="35.55555555555556" width="230" height="64.44" as="geometry" />
+          <mxGeometry y="35.55555555555556" width="250" height="64.44" as="geometry" />
         </mxCell>
         <mxCell id="6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="2" vertex="1">
-          <mxGeometry y="99.99555555555555" width="230" height="18" as="geometry" />
+          <mxGeometry y="99.99555555555555" width="250" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="xko__DXDvP-hnPtf-5rj-51" value="    +getV_ID(): String&#xa;    +getManufacture_name(): String&#xa;    +getSensorReading(): Sensor[]&#xa;    +toString(): String &#xa;   +setVID(String): void&#xa;    +setManufacturename(String): void&#xa;    +setSensorReadings(Sensor[]): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
-          <mxGeometry y="117.99555555555555" width="230" height="162" as="geometry" />
+        <mxCell id="xko__DXDvP-hnPtf-5rj-51" value="+Vehicle(String, String)    +getV_ID(): String&#xa;    +getManufacture_name(): String&#xa;    +getSensorReading(): Sensor[]&#xa;    +toString(): String &#xa;   +setVID(String): void&#xa;    +setManufacturename(String): void&#xa;    +setSensorReadings(Sensor[]): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+          <mxGeometry y="117.99555555555555" width="250" height="162" as="geometry" />
         </mxCell>
         <mxCell id="7" value="SensorReading" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35.55555555555556;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1050" y="-290" width="201" height="249.99555555555554" as="geometry" />
@@ -25,7 +25,7 @@
         <mxCell id="11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="7" vertex="1">
           <mxGeometry y="109.99555555555555" width="201" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="   +getType(): String&#xa;    +getValue(): double&#xa;    +getTimestamp(): String&#xa;    +toString(): String&#xa;    +setType(String): void&#xa;    +setValue(double): void&#xa;    +setTimestamp(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7" vertex="1">
+        <mxCell id="10" value="  +Sensor(String, double, String)   +getType(): String&#xa;    +getValue(): double&#xa;    +getTimestamp(): String&#xa;    +toString(): String&#xa;    +setType(String): void&#xa;    +setValue(double): void&#xa;    +setTimestamp(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7" vertex="1">
           <mxGeometry y="127.99555555555555" width="201" height="122" as="geometry" />
         </mxCell>
         <mxCell id="12" value="PublicVehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
@@ -37,20 +37,20 @@
         <mxCell id="15" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="12" vertex="1">
           <mxGeometry y="77.85714285714286" width="234" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="xko__DXDvP-hnPtf-5rj-52" value="    +getCapacity(): int&#xa;    +getRouteNumber(): String&#xa;    +toString(): String &#xa;   +setCapacity(int): void&#xa;    +setRouteNumber(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="12" vertex="1">
+        <mxCell id="xko__DXDvP-hnPtf-5rj-52" value=" +PublicVehicle(String, String, int, String)    +getCapacity(): int&#xa;    +getRouteNumber(): String&#xa;    +toString(): String &#xa;   +setCapacity(int): void&#xa;    +setRouteNumber(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="12" vertex="1">
           <mxGeometry y="96.85714285714286" width="234" height="93.14" as="geometry" />
         </mxCell>
         <mxCell id="16" value="PrivateVehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="609" y="226" width="218" height="179.99714285714288" as="geometry" />
+          <mxGeometry x="540" y="90" width="321" height="209.99714285714288" as="geometry" />
         </mxCell>
         <mxCell id="17" value="  -ownerName: String&#xa;    -isElectric: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="16" vertex="1">
-          <mxGeometry y="38.857142857142854" width="218" height="39" as="geometry" />
+          <mxGeometry y="38.857142857142854" width="321" height="39" as="geometry" />
         </mxCell>
         <mxCell id="19" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="16" vertex="1">
-          <mxGeometry y="77.85714285714286" width="218" height="19" as="geometry" />
+          <mxGeometry y="77.85714285714286" width="321" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="  +getOwnerName(): String&#xa;    +isElectric(): boolean&#xa;    +toString(): String  &#xa;   +setOwnerName(String): void&#xa;    +setIsElectric(boolean): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="16" vertex="1">
-          <mxGeometry y="96.85714285714286" width="218" height="83.14" as="geometry" />
+        <mxCell id="18" value="   +PrivateVehicle(String, String, String, boolean)  &#xa;+getOwnerName(): String&#xa;    +isElectric(): boolean&#xa;    +toString(): String  &#xa;   +setOwnerName(String): void&#xa;    +setIsElectric(boolean): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="16" vertex="1">
+          <mxGeometry y="96.85714285714286" width="321" height="113.14" as="geometry" />
         </mxCell>
         <mxCell id="20" value="AutonomousDeliveryVehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="880" y="190" width="371" height="189.99714285714288" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry y="96.85714285714286" width="371" height="93.14" as="geometry" />
         </mxCell>
         <mxCell id="24" value="Bus" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="8" y="420" width="258" height="199.99714285714288" as="geometry" />
+          <mxGeometry x="-130" y="430" width="258" height="199.99714285714288" as="geometry" />
         </mxCell>
         <mxCell id="25" value="   -numberOfStops: int&#xa;    -hasWheelchairAccess: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="24" vertex="1">
           <mxGeometry y="38.857142857142854" width="258" height="39" as="geometry" />
@@ -73,56 +73,56 @@
         <mxCell id="27" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="24" vertex="1">
           <mxGeometry y="77.85714285714286" width="258" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="xko__DXDvP-hnPtf-5rj-53" value=" +getNumberOfStops(): int&#xa;    +hasWheelchairAccess(): boolean&#xa;    +toString(): String &#xa;    +setNumberOfStops(int): void&#xa;    +setHasWheelchairAccess(boolean): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="24" vertex="1">
+        <mxCell id="xko__DXDvP-hnPtf-5rj-53" value="   +Bus(String, String, int, String, int, boolean) +getNumberOfStops(): int&#xa;    +hasWheelchairAccess(): boolean&#xa;    +toString(): String &#xa;    +setNumberOfStops(int): void&#xa;    +setHasWheelchairAccess(boolean): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="24" vertex="1">
           <mxGeometry y="96.85714285714286" width="258" height="103.14" as="geometry" />
         </mxCell>
         <mxCell id="28" value="MetroTrain" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="316" y="420" width="229" height="189.99714285714288" as="geometry" />
+          <mxGeometry x="180" y="490" width="430" height="189.99714285714288" as="geometry" />
         </mxCell>
         <mxCell id="30" value="    -carriageCount: int&#xa;    -maxSpeed: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="28" vertex="1">
-          <mxGeometry y="38.857142857142854" width="229" height="39" as="geometry" />
+          <mxGeometry y="38.857142857142854" width="430" height="39" as="geometry" />
         </mxCell>
         <mxCell id="31" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="28" vertex="1">
-          <mxGeometry y="77.85714285714286" width="229" height="19" as="geometry" />
+          <mxGeometry y="77.85714285714286" width="430" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="34" value="  +getCarriageCount(): int&#xa;    +getMaxSpeed(): double&#xa;    +toString(): String &#xa;    +setCarriageCount(int): void&#xa;    +setMaxSpeed(double): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="28" vertex="1">
-          <mxGeometry y="96.85714285714286" width="229" height="93.14" as="geometry" />
+        <mxCell id="34" value="   +MetroTrain(String, String, int, String, int, double) &#xa; +getCarriageCount(): int&#xa;    +getMaxSpeed(): double&#xa;    +toString(): String &#xa;    +setCarriageCount(int): void&#xa;    +setMaxSpeed(double): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="28" vertex="1">
+          <mxGeometry y="96.85714285714286" width="430" height="93.14" as="geometry" />
         </mxCell>
         <mxCell id="32" value="ElectricCar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="595" y="502" width="246" height="189.99714285714288" as="geometry" />
+          <mxGeometry x="380" y="830" width="520" height="189.99714285714288" as="geometry" />
         </mxCell>
         <mxCell id="33" value="   -batteryRange: double&#xa;    -chargingStationID: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="32" vertex="1">
-          <mxGeometry y="38.857142857142854" width="246" height="39" as="geometry" />
+          <mxGeometry y="38.857142857142854" width="520" height="39" as="geometry" />
         </mxCell>
         <mxCell id="35" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="32" vertex="1">
-          <mxGeometry y="77.85714285714286" width="246" height="19" as="geometry" />
+          <mxGeometry y="77.85714285714286" width="520" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="38" value="   +getBatteryRange(): double&#xa;    +getChargingStationID(): String&#xa;    +toString(): String &#xa;   +setBatteryRange(double): void&#xa;    +setChargingStationID(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="32" vertex="1">
-          <mxGeometry y="96.85714285714286" width="246" height="93.14" as="geometry" />
+        <mxCell id="38" value="+ElectricCar(String, String, String, boolean, double, String)   +getBatteryRange(): double&#xa;    +getChargingStationID(): String&#xa;    +toString(): String &#xa;   +setBatteryRange(double): void&#xa;    +setChargingStationID(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="32" vertex="1">
+          <mxGeometry y="96.85714285714286" width="520" height="93.14" as="geometry" />
         </mxCell>
         <mxCell id="36" value="Drone" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="919" y="510" width="238" height="199.99714285714288" as="geometry" />
+          <mxGeometry x="690" y="530" width="470" height="199.99714285714288" as="geometry" />
         </mxCell>
         <mxCell id="37" value="    -flightAltitude: double&#xa;    -cameraResolution: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="36" vertex="1">
-          <mxGeometry y="38.857142857142854" width="238" height="39" as="geometry" />
+          <mxGeometry y="38.857142857142854" width="470" height="39" as="geometry" />
         </mxCell>
         <mxCell id="39" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="36" vertex="1">
-          <mxGeometry y="77.85714285714286" width="238" height="19" as="geometry" />
+          <mxGeometry y="77.85714285714286" width="470" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="42" value="    +getFlightAltitude(): double&#xa;    +getCameraResolution(): String&#xa;    +toString(): String &#xa;   +setFlightAltitude(double): void&#xa;    +setCameraResolution(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="36" vertex="1">
-          <mxGeometry y="96.85714285714286" width="238" height="103.14" as="geometry" />
+        <mxCell id="42" value="   +Drone(String, String, String, boolean, double, String)   &#xa; +getFlightAltitude(): double&#xa;    +getCameraResolution(): String&#xa;    +toString(): String &#xa;   +setFlightAltitude(double): void&#xa;    +setCameraResolution(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="36" vertex="1">
+          <mxGeometry y="96.85714285714286" width="470" height="103.14" as="geometry" />
         </mxCell>
         <mxCell id="40" value="DeliveryRobot" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1251" y="460" width="220" height="206.85714285714286" as="geometry" />
+          <mxGeometry x="1251" y="460" width="350" height="199.99714285714288" as="geometry" />
         </mxCell>
         <mxCell id="41" value="   -terrainType: String&#xa;    -deliveryCapacity: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="40" vertex="1">
-          <mxGeometry y="38.857142857142854" width="220" height="39" as="geometry" />
+          <mxGeometry y="38.857142857142854" width="350" height="39" as="geometry" />
         </mxCell>
         <mxCell id="43" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="40" vertex="1">
-          <mxGeometry y="77.85714285714286" width="220" height="19" as="geometry" />
+          <mxGeometry y="77.85714285714286" width="350" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="xko__DXDvP-hnPtf-5rj-54" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; +getTerrainType(): String&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +getDeliveryCapacity(): double&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +toString(): String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +setTerrainType(String): void&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +setDeliveryCapacity(double): void&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="40" vertex="1">
-          <mxGeometry y="96.85714285714286" width="220" height="110" as="geometry" />
+        <mxCell id="xko__DXDvP-hnPtf-5rj-54" value="&lt;div&gt;&amp;nbsp; +DeliveryRobot(String, String, String, boolean, String, double)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +getTerrainType(): String&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +getDeliveryCapacity(): double&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +toString(): String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +setTerrainType(String): void&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +setDeliveryCapacity(double): void&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="40" vertex="1">
+          <mxGeometry y="96.85714285714286" width="350" height="103.14" as="geometry" />
         </mxCell>
         <mxCell id="45" value="" style="curved=1;startArrow=block;startSize=16;startFill=0;endArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="2" target="16" edge="1">
           <mxGeometry relative="1" as="geometry">

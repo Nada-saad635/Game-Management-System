@@ -17,16 +17,16 @@
           <mxGeometry y="117.99555555555555" width="250" height="162" as="geometry" />
         </mxCell>
         <mxCell id="7" value="SensorReading" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35.55555555555556;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="-290" width="201" height="249.99555555555554" as="geometry" />
+          <mxGeometry x="1050" y="-290" width="340" height="249.99555555555554" as="geometry" />
         </mxCell>
         <mxCell id="8" value="   -type: String&#xa;    -value: double&#xa;    -timestamp: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7" vertex="1">
-          <mxGeometry y="35.55555555555556" width="201" height="74.44" as="geometry" />
+          <mxGeometry y="35.55555555555556" width="340" height="74.44" as="geometry" />
         </mxCell>
         <mxCell id="11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="7" vertex="1">
-          <mxGeometry y="109.99555555555555" width="201" height="18" as="geometry" />
+          <mxGeometry y="109.99555555555555" width="340" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="  +Sensor(String, double, String)   +getType(): String&#xa;    +getValue(): double&#xa;    +getTimestamp(): String&#xa;    +toString(): String&#xa;    +setType(String): void&#xa;    +setValue(double): void&#xa;    +setTimestamp(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7" vertex="1">
-          <mxGeometry y="127.99555555555555" width="201" height="122" as="geometry" />
+        <mxCell id="10" value="  +Sensor(String, double, String)  &#xa; +getType(): String&#xa;    +getValue(): double&#xa;    +getTimestamp(): String&#xa;    +toString(): String&#xa;    +setType(String): void&#xa;    +setValue(double): void&#xa;    +setTimestamp(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7" vertex="1">
+          <mxGeometry y="127.99555555555555" width="340" height="122" as="geometry" />
         </mxCell>
         <mxCell id="12" value="PublicVehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="180" width="234" height="189.99714285714288" as="geometry" />

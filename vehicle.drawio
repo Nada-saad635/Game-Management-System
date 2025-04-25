@@ -53,7 +53,7 @@
           <mxGeometry y="96.85714285714286" width="321" height="113.14" as="geometry" />
         </mxCell>
         <mxCell id="20" value="AutonomousDeliveryVehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="880" y="190" width="371" height="189.99714285714288" as="geometry" />
+          <mxGeometry x="880" y="170" width="371" height="209.99714285714288" as="geometry" />
         </mxCell>
         <mxCell id="21" value="   -aiModelVersion: String&#xa;    -canBeRemoteControlled: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="20" vertex="1">
           <mxGeometry y="38.857142857142854" width="371" height="39" as="geometry" />
@@ -61,8 +61,8 @@
         <mxCell id="23" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="20" vertex="1">
           <mxGeometry y="77.85714285714286" width="371" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="  +getAiModelVersion(): String&#xa;    +canBeRemoteControlled(): boolean&#xa;    +toString(): String &#xa;    +setAiModelVersion(String): void&#xa;    +setCanBeRemoteControlled(boolean): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="20" vertex="1">
-          <mxGeometry y="96.85714285714286" width="371" height="93.14" as="geometry" />
+        <mxCell id="22" value=" +AutonomousVehicle(String, String, String, boolean)  &#xa;+getAiModelVersion(): String&#xa;    +canBeRemoteControlled(): boolean&#xa;    +toString(): String &#xa;    +setAiModelVersion(String): void&#xa;    +setCanBeRemoteControlled(boolean): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="20" vertex="1">
+          <mxGeometry y="96.85714285714286" width="371" height="113.14" as="geometry" />
         </mxCell>
         <mxCell id="24" value="Bus" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-130" y="430" width="258" height="199.99714285714288" as="geometry" />

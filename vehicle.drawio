@@ -13,7 +13,7 @@
         <mxCell id="6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="2" vertex="1">
           <mxGeometry y="99.99555555555555" width="250" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="xko__DXDvP-hnPtf-5rj-51" value="+Vehicle(String, String)    +getV_ID(): String&#xa;    +getManufacture_name(): String&#xa;    +getSensorReading(): Sensor[]&#xa;    +toString(): String &#xa;   +setVID(String): void&#xa;    +setManufacturename(String): void&#xa;    +setSensorReadings(Sensor[]): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+        <mxCell id="xko__DXDvP-hnPtf-5rj-51" value="+Vehicle(String, String)    +getV_ID(): String&#xa;    +getManufacture_name(): String&#xa;    +getSensorReading(): Sensor[]&#xa;    +toString(): String &#xa;   +setVID(String): void&#xa;    +setManufacturename(String): void&#xa;    +setSensorReadings(Sensor[]): void&#xa;+toString(bolean):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
           <mxGeometry y="117.99555555555555" width="250" height="162" as="geometry" />
         </mxCell>
         <mxCell id="7" value="SensorReading" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35.55555555555556;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
@@ -37,7 +37,7 @@
         <mxCell id="15" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="12" vertex="1">
           <mxGeometry y="77.85714285714286" width="234" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="xko__DXDvP-hnPtf-5rj-52" value=" +PublicVehicle(String, String, int, String)    +getCapacity(): int&#xa;    +getRouteNumber(): String&#xa;    +toString(): String &#xa;   +setCapacity(int): void&#xa;    +setRouteNumber(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="12" vertex="1">
+        <mxCell id="xko__DXDvP-hnPtf-5rj-52" value=" +PublicVehicle(String, String, int, String)    +getCapacity(): int&#xa;    +getRouteNumber(): String&#xa;    +toString(): String &#xa;   +setCapacity(int): void&#xa;    +setRouteNumber(String): void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="12" vertex="1">
           <mxGeometry y="96.85714285714286" width="234" height="93.14" as="geometry" />
         </mxCell>
         <mxCell id="16" value="PrivateVehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
